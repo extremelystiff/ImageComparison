@@ -6,7 +6,8 @@
 const comparisonFolders = [
     'customize',
     'range',
-    'mainmenu'
+    'mainmenu',
+    'shotgun mod'
 ];
 
 // Set the labels you want. The first one is for the image on the right (1.png),
