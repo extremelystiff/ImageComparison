@@ -12,8 +12,8 @@ const comparisonFolders = [
 
 // Set the labels you want. The first one is for the image on the right (1.png),
 // the second one is for the image on the left (2.png).
-const labelRight = '1440p';
-const labelLeft = '4K';
+const labelRight = 'MODDED';
+const labelLeft = 'Original';
 
 
 // ===================================================================
