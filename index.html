@@ -8,26 +8,24 @@
 </head>
 <body>
 
-    <!-- The main title will be updated by JavaScript -->
     <h1>Image Comparison</h1>
 
-    <!-- This is where the folder selection buttons will be added -->
     <div id="comparison-selector-container">
         <h2>Select a Comparison:</h2>
         <div id="comparison-selector"></div>
     </div>
 
-    <!-- The Image Comparison Container (no changes here) -->
     <div id="image-compare-container">
-        <!-- The "before" image (bottom layer) -->
-        <img src="" alt="Base Image"> <!-- src will be set by JS -->
-        
-        <!-- The "after" image (top layer, will be clipped) -->
-        <div class="img-wrapper">
-            <img src="" alt="Top Image"> <!-- src will be set by JS -->
-        </div>
+        <!-- Bottom layer: 1.png. This image defines the container size. -->
+        <img id="base-image" src="" alt="Original">
 
-        <!-- The slider handle -->
+        <!-- Top layer: 2.png. Stretched over the SAME box, revealed via clip-path. -->
+        <img id="top-image" src="" alt="Modded">
+
+        <!-- Vertical divider line -->
+        <div class="slider-line"></div>
+
+        <!-- The draggable handle -->
         <div class="slider-handle">
             <div class="slider-arrow left"></div>
             <div class="slider-arrow right"></div>
